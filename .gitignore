@@ -1,3 +1,7 @@
+# hashtag justmeproblems
+.vscode/
+lib/
+
 # Logs
 logs
 *.log
