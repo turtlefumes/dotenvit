@@ -10,5 +10,5 @@ npm publish --access public
 
 To install the package
 ```
-npm i @anyakeller/dotenvit
+npm i dotenvit
 ```
