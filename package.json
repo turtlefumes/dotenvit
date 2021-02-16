@@ -1,0 +1,22 @@
+{
+  "name": "dotenvit",
+  "version": "1.0.0",
+  "description": "Create a dotenv file and require it in the right files or something",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turtlefumes/dotenvit.git"
+  },
+  "keywords": [
+    "dotenv"
+  ],
+  "author": "Anya Keller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turtlefumes/dotenvit/issues"
+  },
+  "homepage": "https://github.com/turtlefumes/dotenvit#readme"
+}
