@@ -1,5 +1,5 @@
 {
-  "name": "dotenvit",
+  "name": "@turtlefumes/dotenvit",
   "version": "1.0.0",
   "description": "Create a dotenv file and require it in the right files or something",
   "main": "index.js",
