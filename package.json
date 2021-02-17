@@ -2,7 +2,7 @@
   "name": "@turtlefumes/dotenvit",
   "version": "1.0.3",
   "description": "Create a dotenv file and require it in the right files or something",
-  "main": "build/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha --require babel-core/register",
     "build": "npm run lint && babel ./src -d ./lib",
