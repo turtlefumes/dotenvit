@@ -23,7 +23,9 @@ dotenvit.insanity();
 # Notes to Self
 
 ## NPM
-To bump npm version with commit message.  %s represents the version number
+### Bump npm version 
+
+With commit message.  %s represents the version number
 ``` bash
 $ npm version patch -m "Upgrade to %s for reasons"
 ```
@@ -32,8 +34,11 @@ To bump npm version by 0.0.1
 $ npm version patch
 ```
 
-To publish through travis just bump version, commit, and push.
-
+### Publish
+With Travis: bump version, commit, and push with:
+``` bash
+$ git push --follow-tags origin
+```
 
 To manually publish to NPM
 ``` bash
