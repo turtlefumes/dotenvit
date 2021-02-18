@@ -46,7 +46,7 @@ With commit message.  %s represents the version number
 ``` bash
 $ npm version patch -m "Upgrade to %s for reasons"
 ```
-To bump npm version by 0.0.1
+To bump npm version point use: major, minor, or patch
 ``` bash
 $ npm version patch
 ```
