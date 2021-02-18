@@ -1,4 +1,4 @@
-var dotenvit = require("../src/index");
+var dotenvit = require("../lib/index");
 
 describe("dotenvit", () => {
   describe("insanity()", () => {
