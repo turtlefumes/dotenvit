@@ -1,15 +1,16 @@
 language: node_js
+os: ["linux"]
 node_js:
-- node
+  - node
 before_deploy:
-- npm run build
+  - npm run build
 deploy:
   provider: npm
   email: kelleranyal@gmail.com
-  api_key:
+  api_token:
     secure: QCqWrBUOyXbnAl5e+RlLL/wDZQ3Q6MgOwLmtdTpQ4A+KgEdgT10A3iJgbjm9DS7XAXzwis5iAERkx0YvTXPgcsgFCzvMzYhTB+iEFF3da2u2jdQJI5TI8aCekGREwtqxeINWZr/X8LGpPuvs1TLlrjJVumhAjLw2CaBYcxjCbnYke9E0V0JI34qQK1tM+dw4ksTRZPGiMmOnK0+ACMUE5RnqGky6Bi73PuGySHvzI3NPS6GrEIdT3AQYW2Hwu1bnwKEkDSfkr/KiLBHQUoD0iKd31os9zAcB5iT8cHGuQqSNDiHDOd5un+KbfcxamnI0EHH8ao+jb9tcJI0bTsmCnXmYjUkO7WEp7qWG4Km147nZ2IJS46IEmnaYfaFP9xRn9rWI1LDRo6BQzrWIlAjct9JsLt6xgwt7Gkj0G5DwkMGp1FQ/1OL/u10cn4XYTILOM2/cSB+PCATnu5wkYkNNRn3/FY3t1VzZuZqBRSeOd726wN/EF3uwI/8poqtZWa/iqVak6/6n0WtGhY8g3w2INos3oCRMtybuOwJ4TnfJNL5kPsu3WdwR5dAHtC0UZYpgjv2oCOTlOrQFwVJMaoxt9accKHfd92tV0pSOOlHkYsfYq6RLWs4gzn7yJOdtYuVdtnrgW+Z8PjVzATwGs5cL7le9V2x6cjJsdLNHabFrmT0=
   on:
     tags: true
     repo: turtlefumes/dotenvit
     branch: main
-  skip_cleanup: 'true'
+  cleanup: false
