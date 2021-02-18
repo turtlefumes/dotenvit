@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "npm run lint && babel ./src -d ./lib",
-    "test": "mocha --require babel-core/register",
+    "test": "jest",
     "lint": "eslint ./src",
     "postinstall": "echo 'dotenvit has joined your party!' || exit 0"
   },
@@ -28,8 +28,9 @@
   "homepage": "https://github.com/turtlefumes/dotenvit#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-jest": "^26.6.3",
     "babel-preset-env": "^1.7.0",
     "eslint": "^7.20.0",
-    "mocha": "^8.3.0"
+    "jest": "^26.6.3"
   }
 }
