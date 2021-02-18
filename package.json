@@ -3,10 +3,15 @@
   "version": "1.0.4",
   "description": "Create a dotenv file and require it in the right files or something",
   "main": "lib/index.js",
+  "bin": {
+    "@turtlefumes/dotenvit": "bin/dotenvit",
+    "dotenvit": "bin/dotenvit"
+  },
   "scripts": {
     "build": "npm run lint && babel ./src -d ./lib",
     "test": "mocha --require babel-core/register",
-    "lint": "eslint ./src"
+    "lint": "eslint ./src",
+    "postinstall": "echo 'dotenvit has joined your party!' || exit 0"
   },
   "repository": {
     "type": "git",

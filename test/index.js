@@ -1,5 +1,5 @@
-import assert from "assert";
-import dotenvit from "../src/index";
+var assert = require("assert");
+var dotenvit = require("../src/index");
 
 describe("dotenvit", () => {
   describe("insanity()", () => {
