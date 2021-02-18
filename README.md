@@ -7,16 +7,33 @@ RIGHT NOW IT DOES NOTHING REALLY
 
 # Installation and Usage
 
-#### Install with npm 
+## With npm 
 
-``` bash
+Install with npm
+```bash
 $ npm i @turtlefumes/dotenvit
 ```
 
-#### Require and call the one method
-``` javascript
+Require dotenvit in a js file for module usage
+```javascript
+const dotenvit = require("@turtlefumes/dotenvit");
+```
+
+## Usage
+
+### Full Usage Example
+
+```javascript
+// require dotenvit
 const dotenvit = require("@turtlefumes/dotenvit");
 
+// call insanity
+dotenvit.insanity();
+```
+
+### The one method: `insanity()`
+Console logs and returns true
+```javascript
 dotenvit.insanity();
 ```
 

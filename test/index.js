@@ -1,9 +1,10 @@
 import assert from "assert";
+import dotenvit from "../src/index";
 
-describe("Inanity", () => {
-  describe("ohmygod", () => {
+describe("dotenvit", () => {
+  describe("insanity()", () => {
     it("It should always be true", () => {
-      assert.equal(true, true);
+      assert.strictEqual(dotenvit.insanity(), true);
     });
   });
 });
