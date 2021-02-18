@@ -22,7 +22,7 @@ dotenvit.insanity();
 
 # Notes to Self
 
-#### NPM
+## NPM
 To bump npm version with commit message.  %s represents the version number
 ``` bash
 $ npm version patch -m "Upgrade to %s for reasons"
@@ -40,9 +40,15 @@ To manually publish to NPM
 $ npm publish --access public
 ```
 
-#### MISC
+## MISC
 
 Push without travis
 ``` bash
 $ git commit -m "[skip travis] Update READMEMES"
 ```
+
+<hr/>
+
+## Thank You
+
+I was able to set this up with travis thanks to [this tutorial](https://auth0.com/blog/developing-npm-packages/) by Bruno Krebs
