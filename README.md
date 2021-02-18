@@ -1,4 +1,6 @@
-# dotenvit
+## dotenvit 
+## [![Build Status](https://travis-ci.com/turtlefumes/dotenvit.svg?branch=main)](https://travis-ci.com/turtlefumes/dotenvit)
+
 It's supposed to create a dotenv file and require it in the right files or something
 
 RIGHT NOW IT DOES NOTHING REALLY
