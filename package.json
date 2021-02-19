@@ -1,10 +1,9 @@
 {
   "name": "@turtlefumes/dotenvit",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Create a dotenv file and require it in the right files or something",
   "main": "lib/index.js",
   "bin": {
-    "@turtlefumes/dotenvit": "bin/dotenvit",
     "dotenvit": "bin/dotenvit"
   },
   "scripts": {
